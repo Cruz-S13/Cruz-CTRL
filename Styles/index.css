@@ -1,0 +1,62 @@
+﻿body {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Freestyle Script';
+    font-size: 75px;
+    margin: 0;
+}
+
+div {
+    padding: 20px;
+    margin: 0px, 20px, 0px, 20px;
+}
+
+.navBar {
+    background-color: #d3e0ea;
+    margin: 0px;
+    text-align: center;
+    font-family: 'Segoe UI';
+}
+
+.active {
+}
+
+.topContainer {
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1687a7;
+    margin: 0px, 20px, 0px, 20px;
+    width: auto;
+    height: 350px;
+    vertical-align: middle;
+    text-align: center;
+    font-style: normal;
+}
+
+.middleContainer {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f6f5f5;
+    width: auto;
+    height: auto;
+    margin: 0px, 20px, 0px, 20px;
+    vertical-align: middle;
+    text-align: center;
+    font-style: normal;
+}
+
+img.middleContainer {
+    margin: 0;
+}
+
+.bottomContainer {
+    background-color: #1687a7;
+    width: auto;
+    height: 100px;
+    margin: 0px, 20px, 0px, 20px;
+    vertical-align: middle;
+    text-align: center;
+    font-style: normal;
+}
+

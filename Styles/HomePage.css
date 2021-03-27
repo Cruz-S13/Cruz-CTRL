@@ -1,0 +1,13 @@
+﻿body {
+    background-color: lightblue;
+}
+
+hr {
+    background-color: lightblue;
+    border-style: dashed none none;
+    border-width: 1px;
+}
+
+img {
+    border-radius: 50%;
+}
