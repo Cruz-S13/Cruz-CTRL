@@ -2,7 +2,9 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Feedback</title>
+    <link rel="stylesheet" href="Styles/feedback.css" />
+    <link rel="icon" href="Images/253_favicon.ico" />
 </head>
 <body>
     <nav>
@@ -11,6 +13,62 @@
             <a href="/about.htm" class="active">About</a>
             <a href="/personalLinks.htm">Contact Me</a>
             <a href="/feedback.htm">Feedback</a>
+        </div>
+        <h2>Feedback Form</h2>
+        <p>
+            Thank you for visiting my page! I'd apprciate any feedback you have that I could 
+            implement in future versions. Also, please feel free to reach out to me on LinkedIn 
+            or at my email address below in the 'CONTACT ME' link. Feedback from this form will 
+            also be directed to my personal email address.
+        </p>
+        <div class="feedbackForm" style="background-image: url(Images/BlueMountains_half_fbform.jpg)">
+            <form>
+                <div class="field">
+                    <label for="fname">First Name</label><br>
+                    <input type="text" id="fname" name="firstname" placeholder="First Name" required="required">
+                </div>
+                <div class="field">
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Last Name" required="required">
+                </divclass="field">
+                <div class="field">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="mailid" placeholder="Your e-mail..." required="required">
+                </div>
+                <div class="field">
+                    <label for="Region">Region</label>
+                    <select id="region" name="Geographical Region">
+                        <option value="none">Select Region</option>
+                        <option value="North America">North America</option>
+                        <option value="Central America">Central America</option>
+                        <option value="South America">South America</option>
+                        <option value="EMEA">EMEA (Europe, Middle East or Africa)</option>
+                        <option value="APAC">APAC (Asia and Pacific)</option>
+                    </select>
+                </div>
+                <div class="field">
+                    <label for="feed_back">Feedback</label>
+                    <textarea id="subject" name="subject" placeholder="I appreciate your feedback..."></textarea>
+                </div>
+                <div class="field">
+                    <input type="submit" value="Submit">
+                </div>
+            </form>
+        </div>
+        <div class="contact-me">
+            <h3>Get In Touch</h3>
+            <h4>Lorem ipsum dolor sit amet, non elit.</h4>
+            <p>Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+            <a class="btn" href="mailto:john.s.cruz@outlook.com">CONTACT ME</a>
+        </div>
+        </div>
+
+
+        <div class="bottomContainer">
+            <a class="footer-link" href="https://www.linkedin.com/in/johnscruz">LinkedIn</a>
+            <a class="footer-link" href="https://www.github.com/cruz-s13">GitHub</a>
+            <a class="footer-link" href="https://twitter.com/Cruz_CTRL_S13">Twitter</a>
+            <p>© 2021 John Cruz.</p>
         </div>
     </nav>
 </body>
